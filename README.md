@@ -39,6 +39,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
+Reset.css: https://piccalil.li/blog/a-modern-css-reset/
+
+
 List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
