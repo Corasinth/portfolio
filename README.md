@@ -41,6 +41,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 Reset.css: https://piccalil.li/blog/a-modern-css-reset/
 Icon: https://freeicons.io/user-interface-icons-3/code-icon-36531
+Under construction: https://commons.wikimedia.org/wiki/File:Under_Construction_(UC_box).png
 
 List your collaborators, if any, with links to their GitHub profiles.
 
