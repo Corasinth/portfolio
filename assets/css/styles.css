@@ -1,8 +1,8 @@
 :root {
-    --stickyheadercolor: #303952;
+    --stickyheadercolor: #182C61;
 }
 * {
-    font-family: "Cambria", "Baskerville", "Big Caslon", "Palatino Linotype", "Palatino", serif;
+    font-family: Palatino;
 }
 
 /*The main header*/
@@ -11,12 +11,12 @@
     display:flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    background-color: #574b90;
+    background-color: #3B3B98;
     color:white;
     padding-left:5%;
     width:100%;
-    padding-top:6.5%;
-    padding-bottom:6.5%;
+    padding-top:7%;
+    padding-bottom:7%;
     user-select: none;
 }
 
@@ -85,9 +85,50 @@ nav {
     display: block;
 }
 
+/*Main body*/
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main p {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    height:20em;
+    width:30em;
+    margin:auto;
+}
+
+#Portfolio .card {
+    height:20em;
+    width:30em;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    width: 100%
+}
+
+#firstfolioimage {
+    width: 100%;
+    margin: auto;
+}
+
 /*Main body images*/
 .folioimage {
-    display: inline;
+    display: inline-block;
 }
 
 

@@ -28,7 +28,7 @@ The websites icon came from [freeicons.io](https://freeicons.io/user-interface-i
 
 Placeholder images were sourced from [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Under_Construction_(UC_box).png).
 
-The color palette was sourced from [flatuicolors.com](https://flatuicolors.com/palette/nl).
+The color palette was sourced from [flatuicolors.com](https://flatuicolors.com/).
 
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
