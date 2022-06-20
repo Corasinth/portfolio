@@ -85,4 +85,13 @@ nav {
     display: block;
 }
 
+.folioimage {
+    margin-right: 0px;
+}
 
+@media only screen and (max-width: 500px) {
+    .seperator {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+}
