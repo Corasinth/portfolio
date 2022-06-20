@@ -87,28 +87,16 @@ nav {
 }
 
 /*Main body*/
-main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#portfolio {
-    display: flex;
-    flex-direction: row;
-}
 
 .card {
-    height:20em;
-    width:30em;
     margin:auto;
 }
 
-.card p {
+p {
     text-align: center;
 }
 
-.card h3 {
+h3 {
     text-align: center;
     margin-top: 1em;
 }
@@ -128,7 +116,7 @@ h2 {
 
 /*Main body images*/
 .folioimage {
-    display: inline-block;
+    display: inline;
 }
 
 /*Footer*/
