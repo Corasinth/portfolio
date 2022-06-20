@@ -1,0 +1,52 @@
+* {
+    font-family: perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, serif;
+}
+
+#headermain {
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #574b90;
+    color:white;
+    padding-left:5%;
+    width:100%;
+    padding-top:7%;
+    padding-bottom:7%;
+    user-select: none;
+}
+
+#headermain h1 {
+    font-size: 4em;
+    color: white;
+    padding-top: 4%;
+    max-width: 10em;
+}
+
+#profile {
+    margin-top: 4%;
+    user-select: none;
+}
+
+#headersticky {
+    position:sticky;
+    background-color:#303952;
+    top:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    user-select: none;
+}
+
+nav {
+    text-align:center;
+}
+
+.nav {
+    padding-left:10px;
+    font-size: 2em;
+    text-decoration:none;
+    color:white;
+}
+#dropdown {
+    display:none;
+}
