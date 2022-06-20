@@ -2,9 +2,10 @@
     --stickyheadercolor: #303952;
 }
 * {
-    font-family: perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, serif;
+    font-family: "perpetua", "Baskerville", "Big Caslon", "Palatino Linotype", "Palatino", serif;
 }
 
+/*The main header*/
 #headermain {
     position:relative;
     display:flex;
@@ -22,8 +23,9 @@
 #headermain h1 {
     font-size: 4em;
     color: white;
-    padding-top: 4%;
+    margin-top: 4%;
     max-width: 10em;
+    text-align: center;
 }
 
 #profile {
@@ -31,6 +33,7 @@
     user-select: none;
 }
 
+/*The sticky header*/
 #headersticky {
     position:sticky;
     background-color:var(--stickyheadercolor);
@@ -60,6 +63,7 @@ nav {
     color: #c44569;
 }
 
+/*Dropdown menu (minus general link styles)*/
 #dropdown {
     position:relative;
     display: inline-block;
@@ -69,15 +73,10 @@ nav {
     position:absolute;
     display: none;
     width: 200%;
-    margin-left:auto;
-    margin-right: auto;
-    text-overflow: auto;
     background-color:var(--stickyheadercolor) ;
     text-decoration:none;
-    text-align: center;
     font-size: .75em;
     color: white;
-    padding: 6px 8px;
     z-index: 1;
 }
 
@@ -85,13 +84,20 @@ nav {
     display: block;
 }
 
+/*Main body images*/
 .folioimage {
-    margin-right: 0px;
+    display: inline;
 }
 
+
+/*Responsive Tweaks*/
 @media only screen and (max-width: 500px) {
     .seperator {
         padding-left: 0em;
         padding-right: 0em;
     }
+    .headermain h1 {
+        font-size: 1px;
+    }
 }
+
