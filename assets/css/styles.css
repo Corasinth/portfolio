@@ -21,7 +21,7 @@
     user-select: none;
 }
 
-#headermain h1 {
+h1 {
     font-size: 4em;
     color: white;
     margin-top: 4%;
@@ -110,19 +110,15 @@ main {
 
 .card h3 {
     text-align: center;
-}
-
-#Portfolio .card {
-    height:20em;
-    width:30em;
-    margin-top: 10px;
+    margin-top: 1em;
 }
 
 h2 {
     text-align: center;
     font-size: 2em;
     color: black;
-    width: 100%
+    width: 100%;
+    margin-top: 1em;
 }
 
 #firstfolioimage {
