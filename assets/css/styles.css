@@ -88,17 +88,25 @@ nav {
 
 /*Main body*/
 
-.card {
-    margin:auto;
+#About {
+    background-color: aliceblue;
+    padding-bottom: .5em;
 }
 
-p {
+#aboutcard {
+    width:20em;
+    margin:auto;
     text-align: center;
+}
+
+#firstitemtext {
+    width:20em;
+    margin:auto;
 }
 
 h3 {
     text-align: center;
-    margin-top: 1em;
+    padding-top: 1em;
 }
 
 h2 {
@@ -106,7 +114,7 @@ h2 {
     font-size: 2em;
     color: black;
     width: 100%;
-    margin-top: 1em;
+    padding-top: 1em;
 }
 
 #firstfolioimage {
