@@ -99,11 +99,6 @@ nav {
     text-align: center;
 }
 
-#firstitemtext {
-    width:20em;
-    margin:auto;
-}
-
 h3 {
     text-align: center;
     padding-top: 1em;
@@ -115,11 +110,6 @@ h2 {
     color: black;
     width: 100%;
     padding-top: 1em;
-}
-
-#firstfolioimage {
-    width: 100%;
-    margin: auto;
 }
 
 /*Main body images*/
