@@ -16,10 +16,6 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README.
-
 ## Credits
 
 The CSS reset used came from the blog [Piccalil](https://piccalil.li/blog/a-modern-css-reset/).
@@ -29,11 +25,6 @@ The websites icon came from [freeicons.io](https://freeicons.io/user-interface-i
 Placeholder images were sourced from [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Under_Construction_(UC_box).png).
 
 The color palette was sourced from [flatuicolors.com](https://flatuicolors.com/).
-
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 
 ## [License](./LICENSE)
