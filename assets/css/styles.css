@@ -3,7 +3,7 @@
     --linkhover: #c44569;
 }
 * {
-    font-family: Palatino;
+    font-family: "Trebuchet MS";
 }
 
 /*The main header*/
@@ -93,11 +93,6 @@ main {
     flex-direction: column;
 }
 
-main p {
-    margin-left:5px;
-    margin-right:5px;
-}
-
 #portfolio {
     display: flex;
     flex-direction: row;
@@ -107,6 +102,14 @@ main p {
     height:20em;
     width:30em;
     margin:auto;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card h3 {
+    text-align: center;
 }
 
 #Portfolio .card {
