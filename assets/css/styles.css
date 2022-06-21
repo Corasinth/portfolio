@@ -126,8 +126,13 @@ footer {
 }
 
 footer p {
-    margin-top: 1%
+    margin-top: .5%
 }
+
+footer section {
+    padding-top: 1%;
+}
+
 .externallinks {
     text-decoration: none;
     color: white;  
