@@ -1,8 +1,9 @@
 :root {
     --stickyheadercolor: #182C61;
     --linkhover: #c44569;
-    --backgroundcolor: ;
-    --altbackgroundcolor: ;
+    --backgroundcolor: #82ccdd;
+    --foliobackgroundcolor: #60a3bc;
+    --contactbackgroundcolor: #0a3d62;
 }
 * {
     font-family: "Trebuchet MS", "Open Sans", sans-serif;
@@ -87,13 +88,13 @@ nav {
 
 /*Main body*/
 
-p {
+main p {
     text-align: center;
     padding-bottom: .75em;
 }
 
 #About {
-    background-color: aliceblue;
+    background-color: var(--backgroundcolor);
     padding-bottom: .75em;
 }
 
@@ -112,6 +113,14 @@ h2 {
     font-size: 2em;
     color: black;
     padding-top: .5em;
+}
+
+#portfoliotitle {
+    background-color: var(--foliobackgroundcolor);
+}
+
+#PortfolioItem1 {
+    background-color: var(--foliobackgroundcolor);
 }
 
 #headlinefoliocard{
@@ -148,9 +157,22 @@ h2 {
     height: 13em;
 }
 
+#PortfolioItem2 {
+    background-color: var(--backgroundcolor);
+}
+
+#PortfolioItem3 {
+    background-color: var(--foliobackgroundcolor);
+}
+
+#PortfolioItem4 {
+    background-color: var(--backgroundcolor);
+}
+
 #Contact {
     padding-bottom: .75em;
     text-align: center;
+    background-color: var(--contactbackgroundcolor);
 }
 
 form {
@@ -161,11 +183,13 @@ form {
 
 #Name, #Email {
     width: 200%;
+    background-color: aliceblue;
 }
 
 #Message {
     width: 200%;
     height: 5em;
+    background-color: aliceblue;
 }
 
 #submit {
