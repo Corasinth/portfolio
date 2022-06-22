@@ -1,6 +1,8 @@
 :root {
     --stickyheadercolor: #182C61;
     --linkhover: #c44569;
+    --backgroundcolor: ;
+    --altbackgroundcolor: ;
 }
 * {
     font-family: "Trebuchet MS", "Open Sans", sans-serif;
@@ -45,10 +47,9 @@ h1 {
     user-select: none;
 }
 
-.seperator {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    color: var(--stickyheadercolor);
+.mainnav {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 
 nav {
@@ -74,7 +75,7 @@ nav {
 #dropdowncontent {
     position:absolute;
     display: none;
-    width: 200%;
+    width: 100%;
     background-color:var(--stickyheadercolor);
     text-decoration:none;
     font-size: .75em;
@@ -154,16 +155,26 @@ h2 {
 
 #Contact {
     padding-bottom: .75em;
+    text-align: center;
 }
 
 form {
     width: fit-content;
-    margin: auto;
+    margin-left: 35.5%;
+    text-align: left;
+ }
+
+#Name, #Email {
+    width: 200%;
+}
+
+#Message {
+    width: 200%;
+    height: 5em;
 }
 
 #submit {
-    width:fit-content;
-    margin:auto;
+    text-align: right;
 }
 
 #submitbutton {
@@ -171,9 +182,8 @@ form {
     background-color: aqua;
     border: none;
     text-decoration: none;
-    text-align: center;
     padding: 4px 4px;
-
+    margin:auto;
 }
 
 /*Footer*/
@@ -207,13 +217,23 @@ footer section {
 }
 
 /*Responsive Tweaks*/
-@media only screen and (max-width: 500px) {
-    .seperator {
-        padding-left: 0em;
-        padding-right: 0em;
+
+@media only screen and (max-width: 768px) {
+    #Name, #Email, #Message {
+       width:100%;
     }
-    .headermain h1 {
-        font-size: 1px;
+    
+    form {
+        margin: auto;
+        width: fit-content;
     }
 }
+/*
+@media screen and (max-width: 768px) {
+    main {
+      display: flex;
+      flex: wrap;
+    }
+  }
+  */
 
