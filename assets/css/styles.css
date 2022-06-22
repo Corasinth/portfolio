@@ -1,11 +1,12 @@
 :root {
     --stickyheadercolor: #182C61;
-    --linkhover: #c44569;
-    --backgroundcolor: #82ccdd;
-    --foliobackgroundcolor: #60a3bc;
-    --contactbackgroundcolor: #3B3B98;
-    --formbackgroundcolor: #182C61;
-    --formtextcolor: white;
+    --linkhover: #4cd137;
+    --backgroundcolor: white;
+    --foliobackgroundcolor: white;
+    --contactbackgroundcolor: white;
+    --contacttextcolor: black;
+    --formbackgroundcolor: #718093;
+    --formtextcolor: black;
 }
 * {
     font-family: "Trebuchet MS", "Open Sans", sans-serif;
@@ -175,11 +176,11 @@ h2 {
     padding-bottom: .75em;
     text-align: center;
     background-color: var(--contactbackgroundcolor);
-    color: var(--formtextcolor);
+    color: var(--contacttextcolor);
 }
 
 #contacttitle {
-    color: var(--formtextcolor)
+    color: var(--contacttextcolor);
 }
 
 form {
@@ -221,13 +222,13 @@ form {
 }
 
 #submitbutton:hover {
-    background-color: #78e08f;
+    background-color: #4cd137;
     color: black;
     border: black solid;
 }
 
 #submitbutton:active {
-    background-color: #78e08f;
+    background-color: #4cd137;
     color: black;
     border: black solid;
 }
