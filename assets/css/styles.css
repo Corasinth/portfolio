@@ -90,7 +90,7 @@ nav {
 
 #About {
     background-color: aliceblue;
-    padding-bottom: .5em;
+    padding-bottom: .75em;
 }
 
 #aboutcard {
@@ -109,7 +109,36 @@ h2 {
     font-size: 2em;
     color: black;
     width: 100%;
-    padding-top: 1em;
+    padding-top: .5em;
+}
+
+#PortfolioItem1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#portfoliocard1{
+    height: 50%;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+#firstfolioimage {
+    margin: auto;
+    height: 15em;
+    width: 100%;
+}
+
+#firstitemtext {
+    width: 50%;
+    margin: auto;
+}
+
+#regularportfolioitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /*Main body images*/
