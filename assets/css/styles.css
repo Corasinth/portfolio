@@ -166,6 +166,16 @@ form {
     margin:auto;
 }
 
+#submitbutton {
+    border-radius: 5px;
+    background-color: aqua;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 4px;
+
+}
+
 /*Footer*/
 footer {
     background-color: var(--stickyheadercolor);
