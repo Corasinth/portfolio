@@ -33,7 +33,6 @@ h1 {
 
 #profile {
     margin-top: 4%;
-    user-select: none;
 }
 
 /*The sticky header*/
@@ -88,7 +87,7 @@ nav {
 
 /*Main body*/
 
-main p {
+p {
     text-align: center;
     padding-bottom: .75em;
 }
@@ -101,7 +100,6 @@ main p {
 #aboutcard {
     width:20em;
     margin:auto;
-    text-align: center;
 }
 
 h3 {
@@ -113,14 +111,12 @@ h2 {
     text-align: center;
     font-size: 2em;
     color: black;
-    width: 100%;
     padding-top: .5em;
 }
 
 #headlinefoliocard{
-    height: 50%;
-    width: 75%;
     margin: auto;
+    width: 75%;
     text-align: center;
 }
 
@@ -143,11 +139,11 @@ h2 {
     align-items: center;
 }
 
-.regularportfoliotext {
+.regularfoliotext {
     flex: 0 1 15em;
 }
 
-.regularportfolioimage {
+.regularfolioimage {
     width: 30em;
     height: 13em;
 }
@@ -255,7 +251,7 @@ footer section {
         width:auto;
     }
 
-    .regularportfolioimage {
+    .regularfolioimage {
         max-width: 20em;
         max-height: 7em;
     }
