@@ -75,7 +75,7 @@ nav {
     position:absolute;
     display: none;
     width: 200%;
-    background-color:var(--stickyheadercolor) ;
+    background-color:var(--stickyheadercolor);
     text-decoration:none;
     font-size: .75em;
     color: white;
@@ -152,8 +152,18 @@ h2 {
     height: 13em;
 }
 
-#Name {
+#Contact {
+    padding-bottom: .75em;
+}
+
+form {
+    width: fit-content;
     margin: auto;
+}
+
+#submit {
+    width:fit-content;
+    margin:auto;
 }
 
 /*Footer*/

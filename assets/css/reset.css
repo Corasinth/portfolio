@@ -33,6 +33,7 @@ html:focus-within {
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 /* Set core body defaults */
