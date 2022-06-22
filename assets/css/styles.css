@@ -152,9 +152,8 @@ h2 {
     height: 13em;
 }
 
-/*Main body images*/
-.folioimage {
-    display: inline;
+#Name {
+    margin: auto;
 }
 
 /*Footer*/
