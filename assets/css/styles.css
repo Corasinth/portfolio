@@ -117,7 +117,7 @@ h2 {
     padding-top: .5em;
 }
 
-#portfoliocard1{
+#headlineportfoliocard{
     height: 50%;
     width: 75%;
     margin: auto;
@@ -245,5 +245,16 @@ footer section {
         margin-left: .5em;
         margin-right: .5em;
     }
+
+    #headlinefolioimage {
+        height: 20em;
+        width: 30em;
+    }
+
+    .regularportfolioimage {
+        max-width: 20em;
+        max-height: 7em;
+    }
+
 }
 
