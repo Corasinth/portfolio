@@ -17,7 +17,6 @@
     background-color: #3B3B98;
     color:white;
     padding-left:5%;
-    width:100%;
     padding-top:7%;
     padding-bottom:7%;
     user-select: none;
@@ -42,8 +41,8 @@ h1 {
     position:sticky;
     background-color:var(--stickyheadercolor);
     top:0;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:.7em;
+    padding-bottom:.7em;
     user-select: none;
 }
 
@@ -219,6 +218,13 @@ footer section {
 /*Responsive Tweaks*/
 
 @media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     #Name, #Email, #Message {
        width:100%;
     }
@@ -227,13 +233,17 @@ footer section {
         margin: auto;
         width: fit-content;
     }
-}
-/*
-@media screen and (max-width: 768px) {
-    main {
-      display: flex;
-      flex: wrap;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-  }
-  */
+
+    .mainnav {
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+}
 
