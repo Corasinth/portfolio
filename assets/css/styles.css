@@ -307,5 +307,10 @@ footer section {
         max-width: 20em;
         max-height: 7em;
     }
+
+    .regularfolioitems {
+        display: flex;
+        flex-wrap:wrap-reverse;
+    }
 }
 
