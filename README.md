@@ -3,7 +3,7 @@
 ## Description 
 A modifiable website to showcase my projects in full stack web development. The website was made using HTML and CSS, though some added javascript functionality will be included later. 
 
-The website can be found [here]().
+The website can be found [here](https://corasinth.github.io/portfolio/).
 
 ## Table of Contents
 
@@ -15,6 +15,10 @@ If your README is very long, add a table of contents to make it easy for users t
 * [License](#license)
 
 ## Usage 
+
+This brief portfolio page is easy to use and navigate, as shown below. 
+
+![portfolio demo](./assets/images/website-demo.gif)
 
 ## Credits
 
