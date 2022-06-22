@@ -88,6 +88,11 @@ nav {
 
 /*Main body*/
 
+main p {
+    text-align: center;
+    padding-bottom: .75em;
+}
+
 #About {
     background-color: aliceblue;
     padding-bottom: .75em;
@@ -112,11 +117,6 @@ h2 {
     padding-top: .5em;
 }
 
-#PortfolioItem1 {
-    display: flex;
-    flex-direction: column;
-}
-
 #portfoliocard1{
     height: 50%;
     width: 75%;
@@ -124,21 +124,32 @@ h2 {
     text-align: center;
 }
 
-#firstfolioimage {
+#headlinefolioimage {
     margin: auto;
     height: 15em;
     width: 100%;
 }
 
-#firstitemtext {
+#headlinefoliotext {
     width: 50%;
     margin: auto;
 }
 
-#regularportfolioitems {
+.regularfolioitems {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.regularportfoliotext {
+    flex: 0 1 15em;
+}
+
+.regularportfolioimage {
+    width: 30em;
+    height: 13em;
 }
 
 /*Main body images*/

@@ -22,7 +22,7 @@ The CSS reset used came from the blog [Piccalil](https://piccalil.li/blog/a-mode
 
 The websites icon came from [freeicons.io](https://freeicons.io/user-interface-icons-3/code-icon-36531).
 
-Placeholder images were sourced from [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Under_Construction_(UC_box).png).
+Placeholder images were sourced from [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Under_Construction.JPG).
 
 The color palette was sourced from [flatuicolors.com](https://flatuicolors.com/).
 
