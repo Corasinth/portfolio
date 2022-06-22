@@ -3,7 +3,9 @@
     --linkhover: #c44569;
     --backgroundcolor: #82ccdd;
     --foliobackgroundcolor: #60a3bc;
-    --contactbackgroundcolor: #0a3d62;
+    --contactbackgroundcolor: #3B3B98;
+    --formbackgroundcolor: #182C61;
+    --formtextcolor: white;
 }
 * {
     font-family: "Trebuchet MS", "Open Sans", sans-serif;
@@ -173,6 +175,11 @@ h2 {
     padding-bottom: .75em;
     text-align: center;
     background-color: var(--contactbackgroundcolor);
+    color: var(--formtextcolor);
+}
+
+#contacttitle {
+    color: var(--formtextcolor)
 }
 
 form {
@@ -183,13 +190,20 @@ form {
 
 #Name, #Email {
     width: 200%;
-    background-color: aliceblue;
+    outline:none;
+    border:none;
+    background-color: var(--formbackgroundcolor);
+    color: var(--formtextcolor);
 }
 
 #Message {
     width: 200%;
     height: 5em;
-    background-color: aliceblue;
+    outline: none;
+    border: none;
+    background-color: var(--formbackgroundcolor);
+    color: var(--formtextcolor);
+    resize: none;
 }
 
 #submit {
@@ -198,11 +212,24 @@ form {
 
 #submitbutton {
     border-radius: 5px;
-    background-color: aqua;
-    border: none;
+    background-color: #182C61;
+    color: white;
+    border: white solid;
     text-decoration: none;
     padding: 4px 4px;
     margin:auto;
+}
+
+#submitbutton:hover {
+    background-color: #78e08f;
+    color: black;
+    border: black solid;
+}
+
+#submitbutton:active {
+    background-color: #78e08f;
+    color: black;
+    border: black solid;
 }
 
 /*Footer*/
